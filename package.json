@@ -1,0 +1,47 @@
+{
+  "name": "@tassi/sdk",
+  "version": "1.0.0",
+  "description": "SDK JavaScript pour l'API Tassi - Compatible tous frameworks JS",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tassi",
+    "shipping",
+    "logistics",
+    "api",
+    "sdk",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Tassi Team <dev@tassi.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tassi/tassi-js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "ts-jest": "^29.4.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  }
+}
