@@ -2,6 +2,8 @@
 
 SDK JavaScript/TypeScript officiel pour l'API Tassi - Solution complète de logistique et d'expédition.
 
+> **Nouveau ?** Consultez le [Guide de démarrage rapide](QUICKSTART.md) pour une installation pas à pas.
+
 > **Compatible avec tous les frameworks JavaScript** (React, Vue, Angular, Node.js, etc.) et utilisable via CDN.
 
 ## Table des matières
